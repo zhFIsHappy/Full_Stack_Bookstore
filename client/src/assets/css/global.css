@@ -1,0 +1,23 @@
+/* GOOGLE FONTS */
+
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* CUSTOM PROPERTIES */
+
+/*
+  The :root selector matches the document's root element.
+  In HTML, the root element is always html. By convention,
+  custom properties are always defined in :root (not in html).
+*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
